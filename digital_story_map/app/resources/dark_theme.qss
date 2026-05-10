@@ -1,0 +1,224 @@
+/* Kitap Atlasi — global dark theme */
+
+QWidget {
+    background-color: #0e1218;
+    color: #e8ebf2;
+    font-family: "Segoe UI", "Segoe UI Variable", system-ui, sans-serif;
+    font-size: 13px;
+}
+
+QMainWindow {
+    background-color: #0e1218;
+}
+
+QSplitter::handle {
+    background-color: #1a2230;
+    width: 2px;
+}
+
+QSplitter::handle:hover {
+    background-color: #2f5ea8;
+}
+
+QLineEdit, QListWidget, QPushButton, QDialog {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 8px 12px;
+    background-color: #151b26;
+    color: #e8ebf2;
+}
+
+QLineEdit:focus, QListWidget:focus {
+    border: 1px solid #4e89ff;
+}
+
+QPushButton {
+    background-color: #2f5ea8;
+    font-weight: 600;
+    padding: 10px 14px;
+}
+
+QPushButton:hover {
+    background-color: #3d6ec4;
+}
+
+QPushButton:pressed {
+    background-color: #264a82;
+}
+
+QListWidget::item {
+    padding: 10px 12px;
+    border-radius: 8px;
+}
+
+QListWidget::item:alternate {
+    background-color: #121824;
+}
+
+QListWidget::item:selected {
+    background-color: #2f4468;
+}
+
+#sidebarRoot {
+    background-color: #0a0d12;
+    border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+#sidebarTitle {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #f0f3f8;
+}
+
+#sidebarTag {
+    font-size: 12px;
+    color: #8b95a8;
+    line-height: 1.4;
+}
+
+#sidebarPrimaryBtn {
+    background-color: #2f5ea8;
+    padding: 12px 14px;
+}
+
+#sidebarGhostBtn {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    color: #c5ccda;
+}
+
+#sidebarGhostBtn:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#localeBar {
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 8px 10px;
+}
+
+#localeLabel {
+    color: #8b95a8;
+    font-size: 11px;
+    font-weight: 600;
+    min-width: 28px;
+}
+
+#localePill {
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+    padding: 8px 10px;
+    font-weight: 700;
+    font-size: 12px;
+    color: #b8c4d9;
+}
+
+#localePill:checked {
+    background-color: #2f5ea8;
+    border: 1px solid #4e89ff;
+    color: #f0f3f8;
+}
+
+#localePill:hover {
+    border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+#sidebarFooter {
+    color: #5c6577;
+    font-size: 11px;
+}
+
+/* Floating map search — glassmorphism */
+#mapSearchGlass {
+    background-color: rgba(18, 24, 34, 0.78);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 14px;
+}
+
+#mapSearchInput {
+    background-color: rgba(10, 14, 20, 0.55);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 14px;
+    selection-background-color: #2f5ea8;
+}
+
+#mapSearchHint {
+    color: #7d8899;
+    font-size: 11px;
+    margin-left: 2px;
+}
+
+#mapSearchSuggestList {
+    background-color: rgba(12, 16, 24, 0.92);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 4px;
+    outline: none;
+}
+
+#mapSearchSuggestList::item {
+    padding: 8px 10px;
+}
+
+#mapSearchSuggestList::item:selected {
+    background-color: #2f4468;
+}
+
+#bookListTitle {
+    font-size: 16px;
+    font-weight: 700;
+    color: #f0f3f8;
+}
+
+#aboutHead {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f0f3f8;
+}
+
+#aboutSub {
+    font-size: 12px;
+    color: #8b95a8;
+}
+
+#aboutBody {
+    font-size: 13px;
+    color: #c5ccda;
+}
+
+QStatusBar {
+    background-color: #0a0d12;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    color: #8b95a8;
+}
+
+QScrollBar:vertical {
+    background: #0e1218;
+    width: 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+QScrollBar::handle:vertical {
+    background: #2b3548;
+    border-radius: 5px;
+    min-height: 28px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #3a4a62;
+}
+
+QToolTip {
+    background-color: #151b26;
+    color: #e8ebf2;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 6px;
+    border-radius: 6px;
+}
